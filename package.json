@@ -1,0 +1,29 @@
+{
+  "name": "parcel-plugin-prepack",
+  "version": "0.0.0",
+  "description": "Prepack plugin for parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '{,!(node_modules)/**}/**.spec.js'"
+  },
+  "keywords": [
+    "prepack",
+    "parcel",
+    "plugin",
+    "parcel-plugin",
+    "facebook"
+  ],
+  "author": "Antony Jones",
+  "license": "MIT",
+  "dependencies": {
+    "prepack": "^0.2.34"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "parcel-assert-bundle-tree": "^1.0.0",
+    "parcel-bundler": "^1.8.1"
+  },
+  "peerDependencies": {
+    "parcel-bundler": "^1.8.0"
+  }
+}
